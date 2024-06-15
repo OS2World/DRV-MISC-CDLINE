@@ -1,0 +1,145 @@
+
+ CMDLINE
+
+ Start     Length     Name                   Class
+ 0001:0000 0022EH     _DATA                  DATA
+ 0001:022E 00000H     CONST                  CONST
+ 0001:022E 00008H     _BSS                   BSS
+ 0001:0240 00000H     c_common               BSS
+ 0001:0240 00000H     _END_DS                BSS
+ 0002:0000 00966H     _TEXT                  CODE
+
+ Origin   Group
+ 0001:0   DGROUP
+
+  Address         Publics by Name
+
+ 0001:0124       DevHelp
+ 0000:0000  Imp  DOSBEEP              (DOSCALLS.50)
+ 0000:0000  Imp  DOSEXECPGM           (DOSCALLS.144)
+ 0000:0000  Imp  DOSPUTMESSAGE        (MSG.1)
+ 0000:0000  Imp  DOSSLEEP             (DOSCALLS.32)
+ 0000:0000  Imp  KBDCHARIN            (KBDCALLS.4)
+ 0000:0000  Imp  KBDPEEK              (KBDCALLS.22)
+ 0002:01AA       _AllocGDTSel
+ 0002:01CA       _AllocPhys
+ 0002:063A       _atoin
+ 0002:0694       _atoln
+ 0002:01FA       _AttachDD
+ 0002:021A       _Block
+ 0002:0460       _BreakPoint
+ 0002:0032       _CmdLineInit
+ 0002:000C       _CmdLineMain
+ 0001:001A       _CmdLineProc
+ 0002:0000       _CmdLineStrat
+ 0001:0000       _DevHdr
+ 0002:018A       _DevHelpInit
+ 0002:0257       _DisplayMessage
+ 0002:0270       _EOI
+ 0002:0285       _FreePhys
+ 0002:0806       _GetDeviceName
+ 0002:07B2       _GetString
+ 0002:046E       _hextoi
+ 0002:0530       _hextol
+ 0001:0054       _InitMsg1
+ 0001:007A       _InitMsg2
+ 0001:00AC       _InitMsg3
+ 0002:070C       _isanum
+ 0002:04D8       _itohex
+ 0001:00E8       _KbdErrMsg
+ 0001:010A       _LineSkip
+ 0002:05AC       _ltohex
+ 0002:0186       _NoFunc
+ 0002:02A3       _PhysToGDTSel
+ 0002:02C9       _PhysToUVirt
+ 0002:0302       _PhysToVirt
+ 0001:00C4       _PromptMsg
+ 0002:039B       _ProtToReal
+ 0002:0339       _PullReqPacket
+ 0002:037D       _PushReqPacket
+ 0002:03AF       _RealToProt
+ 0002:03DE       _Run
+ 0002:0724       _ScanSwitch
+ 0002:0462       _SelectorLimit
+ 0002:03F6       _SetIRQ
+ 0002:03C3       _StackUsage
+ 0002:041D       _UnSetIRQ
+ 0002:043B       _VirtToPhys
+ 0002:0000       __acrtused
+ 0000:0000  Imp  __AHINCR             (DOSCALLS.136)
+ 0002:0868       __aNlshl
+ 0002:0874       __aNNalshl
+ 0002:0890       __aNNaulshr
+ 0002:08AC       __aNulshr
+ 0001:012C       __ctype
+ 0001:012C       __ctype_
+ 0002:091E       __fmemset
+ 0002:0906       __fstrlen
+ 0002:08B8       __fstrncpy
+ 0002:08E2       __fstrupr
+
+  Address         Publics by Value
+
+ 0000:0000  Imp  DOSBEEP              (DOSCALLS.50)
+ 0000:0000  Imp  __AHINCR             (DOSCALLS.136)
+ 0000:0000  Imp  DOSPUTMESSAGE        (MSG.1)
+ 0000:0000  Imp  DOSSLEEP             (DOSCALLS.32)
+ 0000:0000  Imp  KBDCHARIN            (KBDCALLS.4)
+ 0000:0000  Imp  KBDPEEK              (KBDCALLS.22)
+ 0000:0000  Imp  DOSEXECPGM           (DOSCALLS.144)
+ 0001:0000       _DevHdr
+ 0001:001A       _CmdLineProc
+ 0001:0054       _InitMsg1
+ 0001:007A       _InitMsg2
+ 0001:00AC       _InitMsg3
+ 0001:00C4       _PromptMsg
+ 0001:00E8       _KbdErrMsg
+ 0001:010A       _LineSkip
+ 0001:0124       DevHelp
+ 0001:012C       __ctype_
+ 0001:012C       __ctype
+ 0002:0000       _CmdLineStrat
+ 0002:0000       __acrtused
+ 0002:000C       _CmdLineMain
+ 0002:0032       _CmdLineInit
+ 0002:0186       _NoFunc
+ 0002:018A       _DevHelpInit
+ 0002:01AA       _AllocGDTSel
+ 0002:01CA       _AllocPhys
+ 0002:01FA       _AttachDD
+ 0002:021A       _Block
+ 0002:0257       _DisplayMessage
+ 0002:0270       _EOI
+ 0002:0285       _FreePhys
+ 0002:02A3       _PhysToGDTSel
+ 0002:02C9       _PhysToUVirt
+ 0002:0302       _PhysToVirt
+ 0002:0339       _PullReqPacket
+ 0002:037D       _PushReqPacket
+ 0002:039B       _ProtToReal
+ 0002:03AF       _RealToProt
+ 0002:03C3       _StackUsage
+ 0002:03DE       _Run
+ 0002:03F6       _SetIRQ
+ 0002:041D       _UnSetIRQ
+ 0002:043B       _VirtToPhys
+ 0002:0460       _BreakPoint
+ 0002:0462       _SelectorLimit
+ 0002:046E       _hextoi
+ 0002:04D8       _itohex
+ 0002:0530       _hextol
+ 0002:05AC       _ltohex
+ 0002:063A       _atoin
+ 0002:0694       _atoln
+ 0002:070C       _isanum
+ 0002:0724       _ScanSwitch
+ 0002:07B2       _GetString
+ 0002:0806       _GetDeviceName
+ 0002:0868       __aNlshl
+ 0002:0874       __aNNalshl
+ 0002:0890       __aNNaulshr
+ 0002:08AC       __aNulshr
+ 0002:08B8       __fstrncpy
+ 0002:08E2       __fstrupr
+ 0002:0906       __fstrlen
+ 0002:091E       __fmemset

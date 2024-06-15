@@ -1,0 +1,30 @@
+
+This is a replacement driver for the CDD.SYS driver.
+
+To install it place the line -
+
+DEVICE=X:\PATH\CMDLINE.SYS 
+
+in your config.sys file. Where X is the drive that has CMDLINE.SYS
+on it and PATH is the path of CMDLINE.SYS.
+
+When you boot up you will see the prompt -
+
+Press ESC for command prompt...
+
+If you press the ESC key, you will get a command prompt
+that should allow you to modify your system. I have found 
+this to be a useful utility to help fix problems that were
+caused by installing some software that causes the system
+to trap on boot up.
+
+I have placed this driver in the Public Domain, but retain
+a copyright on it. You may use this driver and it's source
+for any purpose you see fit. Note that I take no responsibility
+for any problems with the operation on this code. If you have
+any problems, I can be reached through CIS:76701,122 and 
+BIX:pcquote.
+
+Richard Holm
+January 21, 1993
+
